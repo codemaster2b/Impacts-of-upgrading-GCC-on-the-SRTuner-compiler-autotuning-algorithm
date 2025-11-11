@@ -1,0 +1,115 @@
+O1 O0
+O2 O1
+O3 O2
+O0 -freorder-blocks-algorithm=simple
+O1 -fauto-inc-dec
+O1 -fbranch-count-reg
+O1 -fcombine-stack-adjustments
+O1 -fcompare-elim
+O1 -fcprop-registers
+O1 -fdce
+O1 -fdefer-pop
+O1 -fdelayed-branch
+O1 -fdse
+O1 -fforward-propagate
+O1 -fguess-branch-probability
+O1 -fif-conversion -fif-conversion2
+O1 -fif-conversion2
+O1 -finline-functions-called-once
+O1 -fipa-modref
+O1 -fipa-profile
+O1 -fipa-pure-const
+O1 -fipa-reference
+O1 -fipa-reference-addressable
+O1 -fmerge-constants
+O1 -fmove-loop-invariants
+O1 -fmove-loop-stores -ftree-loop-im
+O1 -fomit-frame-pointer
+O1 -freorder-blocks
+O1 -fshrink-wrap
+O1 -fshrink-wrap-separate -fshrink-wrap
+O1 -fsplit-wide-types
+O1 -fssa-backprop
+O1 -fssa-phiopt
+O1 -ftree-bit-ccp -ftree-ccp
+O1 -ftree-ccp
+O1 -ftree-ch
+O1 -ftree-coalesce-vars
+O1 -ftree-copy-prop
+O1 -ftree-dce
+O1 -ftree-dominator-opts
+O1 -ftree-dse
+O1 -ftree-forwprop
+O1 -ftree-fre
+O1 -ftree-phiprop
+O1 -ftree-pta
+O1 -ftree-scev-cprop
+O1 -ftree-sink
+O1 -ftree-slsr
+O1 -ftree-sra
+O1 -ftree-ter
+O1 -funit-at-a-time
+O2 -fcaller-saves
+O2 -fcode-hoisting
+O2 -fcrossjumping
+O2 -fcse-follow-jumps -fcse-skip-blocks
+O2 -fcse-skip-blocks
+O2 -fdelete-null-pointer-checks
+O2 -fdevirtualize -fdevirtualize-speculatively
+O2 -fdevirtualize-speculatively
+O2 -fexpensive-optimizations
+O2 -ffinite-loops
+O2 -fgcse -fgcse-lm
+O2 -fgcse-lm
+O2 -fhoist-adjacent-loads
+O2 -finline-functions
+O2 -finline-small-functions
+O2 -findirect-inlining -fdevirtualize
+O2 -fipa-bit-cp -fipa-cp -fipa-icf
+O2 -fipa-cp -fdevirtualize
+O2 -fipa-icf
+O2 -fipa-ra -fipa-sra -fipa-vrp
+O2 -fipa-sra
+O2 -fipa-vrp -fipa-cp
+O2 -fisolate-erroneous-paths-dereference -fdelete-null-pointer-checks
+O2 -flra-remat
+O2 -foptimize-sibling-calls
+O2 -foptimize-strlen
+O2 -fpartial-inlining -finline-functions -finline-small-functions
+O2 -fpeephole2
+O2 -freorder-blocks-algorithm=stc
+O2 -freorder-blocks-and-partition
+O2 -frerun-cse-after-loop
+O2 -fschedule-insns -fschedule-insns2
+O2 -fschedule-insns2
+O2 -fsched-interblock -fsched-spec
+O2 -fsched-spec
+O2 -fstore-merging
+O2 -fstrict-aliasing
+O2 -fthread-jumps
+O2 -ftree-builtin-call-dce
+O2 -ftree-loop-vectorize
+O2 -ftree-pre
+O2 -ftree-slp-vectorize
+O2 -ftree-switch-conversion -ftree-tail-merge
+O2 -ftree-tail-merge
+O2 -ftree-vrp -fdelete-null-pointer-checks
+O2 -fvect-cost-model=very-cheap
+O2 -free
+O3 -fgcse-after-reload
+O3 -fipa-cp-clone
+O3 -floop-interchange
+O3 -floop-unroll-and-jam
+O3 -fpeel-loops
+O3 -fpredictive-commoning
+O3 -fsplit-loops
+O3 -fsplit-paths
+O3 -ftree-loop-distribution
+O3 -ftree-partial-pre
+O3 -funswitch-loops -ftree-loop-im
+O3 -fvect-cost-model=dynamic
+O3 -fversion-loops-for-strides
+-ftree-loop-im
+-fvect-cost-model=unlimited,cheap
+-ftree-parallelize-loops=,1,2,3,4,5,6,7,8
+-floop-parallelize-all
